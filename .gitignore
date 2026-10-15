@@ -1,0 +1,17 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
+*.py[cod]
+WSD4FEDSRM/
+WSD4FEDSRM.zip
+data_processed/fatigue_features.csv
+data_processed/excluded_windows.csv
+results/resume_final/*
+!results/resume_final/regression_nested_metrics.csv
+!results/resume_final/classification_nested_metrics.csv
+!results/resume_final/threshold_summary.csv
+!results/resume_final/figures/
+results/resume_final/figures/*
+!results/resume_final/figures/regression_model_mae_comparison.png
+!results/resume_final/figures/final_regression_true_vs_pred.png
